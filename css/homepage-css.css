@@ -1,0 +1,17 @@
+.imgSize{
+	width: 195px;
+	height: auto;
+	border: 5px solid white;
+	/*outline: 1px solid #dbdee0;*/
+}
+
+#contact-us-container{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.contact-us-body{
+	/*margin: 50px;*/
+	padding-left: 20px;
+	padding-top: 10px;
+}

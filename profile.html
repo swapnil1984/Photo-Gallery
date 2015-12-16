@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
+		<title>Photo Gallery</title>
+		<!-- Bootstrap core CSS -->
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="js/ie-emulation-modes-warning.js"></script>
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Custom styles for this template -->
+		<link href="css/navigation-bar.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/general-css.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<!-- <link href="carousel.css" rel="stylesheet"> -->
+	</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+	<div class="navbar-wrapper">
+		<nav class="navbar-default navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Photo Gallery</a>
+				</div>
+			
+			
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li>
+							<a href="#sign-up" class="navbar-color" data-toggle="modal">
+								Sign Up
+							</a>
+						</li>
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" placeholder="Email" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Password" class="form-control">
+							</div>
+							<button type="submit" class="btn btn-success">Sign in</button>
+						</form>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container main-container">
+		<div class="row">
+        	<div class="col-sm-2">
+				<div class="row">
+					<!-- <div class="col-sm-12"> -->
+					<img src="img/Swapnil.jpg" class="imgSize">
+					<ul id="navmenu">
+						<li class="active"><a href="#">Overview</a></li>
+						<li><a href="#">Upload Photos<span class="glyphicon glyphicon-menu-right pull-right glypicon-padding"></span></a>
+							<ul class="sub1">
+								<li><a href="#">Create Album</a></li>
+								<li><a href="#">Upload Photos</a></li>
+							</ul>
+						</li>
+						<li><a href="#">View Photos</a></li>
+						<li><a href="#">Friends</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-sm-10 main-div">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="paragraph-summary">
+							You have total 4 photos in 1 Album
+						</p>
+					</div>
+				</div>	
+				
+				<div class="row div-photo-of-week photo-of-week">
+					<div class="col-sm-2">
+						<img src="img/rockpool_uk.jpg" class="photo-of-week">
+					</div>
+					<div class="col-sm-10">
+						<p class="paragraph-photo-of-week">
+							Lorem ipsum dolor sit amet, vel sed donec phasellus elit amet mi,
+							semper lobortis urna velit mauris sit nulla.
+							Ac arcu lectus fermentum rhoncus dolor, amet non semper. Libero et, sed lorem wisi scelerisque dis orci.
+							Ultrices sed amet sit, mollis convallis, vel et non, posuere enim quam et, justo sollicitudin adipiscing feugiat posuere nonummy maecenas. Sapien fermentum iaculis justo turpis nulla gravida, malesuada amet augue amet taciti, lacinia erat magnis, amet dignissim lorem integer, mattis sit quo magna phasellus diam.
+						</p>
+					</div>
+				</div>
+				
+				<div class="row" style="padding: 20px 20px;">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="email" class="col-sm-3 control-label">Email</label>
+							<div class="col-sm-8">
+								<input type="email" class="form-control" id="email" placeholder="abc@example.com">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="password" class="col-sm-3 control-label">Password</label>
+							<div class="col-sm-8">
+								<input type="email" class="form-control" id="password">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="confirm-password" class="col-sm-3 control-label">Confirm Password</label>
+							<div class="col-sm-8">
+								<input type="email" class="form-control" id="confirm-password">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="col-sm-offset-3 col-sm-8">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			<div>
+		</div>
+    </div>
+    
+	<!-- FOOTER -->
+	<div class="navbar navbar-default navbar-fixed-bottom footer-settings">
+		<p class="pull-right"><a href="#">Back to top</a></p>
+		<p>&copy; 2015 Photo Gallery &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	</div>
+
+    <div class="modal fade" style="padding-top: 300px" id="sign-up" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h4>Sign Up</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="email" class="col-lg-4 control-label">Email</label>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" id="email" placeholder="you@example.com" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-lg-4 control-label">Password</label>
+                            <div class="col-lg-8">
+                                <input type="email" class="form-control" id="password" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password" class="col-lg-4 control-label">Confirm Password</label>
+                            <div class="col-lg-8">
+                                <input type="email" class="form-control" id="confirm-password" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="invite-code" class="col-lg-4 control-label">Invite Code</label>
+                            <div class="col-lg-8">
+                                <input type="email" class="form-control" id="invite-code" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <a class="btn btn-success" href="#" role="button">Sign Up</a>
+                    <a class="btn btn-primary" data-dismiss="modal" href="#" role="button">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>
